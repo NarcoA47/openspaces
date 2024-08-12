@@ -1,0 +1,140 @@
+.listed .Information-Sector .header {
+    position: relative;
+    right: 1.3rem;
+}
+.listed .Information-Sector .body {
+    display: flex;
+}
+.listed .Information-Sector .body .Left-Text .text h2{
+    position: relative;
+    right: 1rem;
+}
+.listed .Information-Sector .body .Left-Text button {
+    border: none;
+    background: var(--secondary-color);
+    height: 2.5rem;
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+.listed .Information-Sector .body .Left-Text .SimilarPlaces .card-section .Cards {
+    border: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 2rem;
+    padding: 1rem 1rem;
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+.listed .Information-Sector .body .Right-Text {
+    border-radius: .5rem .5rem .5rem .5rem;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.08) ;
+    margin-right: 6.5rem;
+    width: 50%;
+    height: 25rem;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment{
+    margin: 1rem 1rem;
+    
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag {
+    margin: .5rem 0rem;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag .price{
+    color: var(--secondary-color);
+    font-size: 24px;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag .duration{
+    color: var(--primary-gray);
+    font-size: 10px;
+    margin: 0rem .2rem;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .BodyTag {
+    color: var(--secondary-color);
+    font-size: 18px;
+    margin: .5rem 0rem;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing button {
+    color: white;
+    font-size: 18px;
+    margin: .5rem 0rem;
+    background: var(--primary-color);
+    border: none;
+    border-radius: .5rem .5rem .5rem .5rem;
+    width: 80%;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing button span{
+   margin-right: 2rem;
+}
+@media screen and (max-width: 1024px) {
+    .listed .Information-Sector .header {
+        position: relative;
+        right: 0rem;
+        top: 8rem;
+    }
+    .listed .Information-Sector .body {
+        display: block;
+        position: relative;
+        left: 1rem;
+        top: 10rem;
+    }
+    .listed .Information-Sector .body .Left-Text .text h2{
+        position: relative;
+        right: 1rem;
+    }
+    .listed .Information-Sector .body .Left-Text button {
+        border: none;
+        background: var(--secondary-color);
+        height: 2.5rem;
+        border-radius: .5rem .5rem .5rem .5rem;
+    }
+    .listed .Information-Sector .body .Left-Text .SimilarPlaces .card-section .Cards {
+        border: 1px solid rgb(0, 0, 0);
+        width: 20%;
+        height: 2rem;
+        padding: 1rem 1rem;
+        border-radius: .5rem .5rem .5rem .5rem;
+    }
+    .listed .Information-Sector .body .Right-Text {
+        border-radius: .5rem .5rem .5rem .5rem;
+        box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.08) ;
+        margin-right: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 12rem;
+        width: 100%;
+        height: 25rem;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag {
+        margin-top: 1rem;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag .price{
+        color: var(--secondary-color);
+        font-size: 24px;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .HeadingTag .duration{
+        color: var(--primary-gray);
+        font-size: 10px;
+        margin: 0rem .2rem;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing .BodyTag {
+        color: var(--secondary-color);
+        font-size: 18px;
+        margin: .5rem 0rem;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing button {
+        color: white;
+        font-size: 18px;
+        margin: .5rem 0rem;
+        background: var(--primary-color);
+        border: none;
+        border-radius: .5rem .5rem .5rem .5rem;
+        width: 80%;
+        height: 2.5rem;
+        cursor: pointer;
+    }
+    .listed .Information-Sector .body .Right-Text .Card-Payment .PriceListing button span{
+       margin-right: 2rem;
+    }
+}

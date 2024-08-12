@@ -1,0 +1,93 @@
+.ContactUs-container .HeadingText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin: auto;
+    padding: 2px;
+    justify-content: center;
+    }
+    .ContactUs-container .HeadingText .ImageContainer {
+        width: 15%;
+    }
+    .ContactUs-container .HeadingText .ImageContainer img {
+        width: 100%;
+    }
+    .ContactUs-container li{
+      list-style: none;
+      padding: 20px;
+      margin: auto;
+      font-size: 15px;
+    }
+    .ContactUs-container input{
+      box-sizing: border-box;
+      padding: 1%;
+      width: 20%;
+      position: relative;
+      width: 50%;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      border-radius: var(--primary-border-r1);
+      padding: 0px 16px;
+      height: 56px;
+      outline: none;
+      border: 1px solid var(--input-border-color);
+     
+    }
+    .ContactUs-container h1{
+      font-size: 300px;
+      position: relative;
+      font-weight: bolder;
+    }
+    .button button{
+        display: flex;
+        margin: 40px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: var(--primary-border-r1);
+        padding: 0px 16px;
+        height: 56px;
+        user-select: none;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+        cursor: pointer;
+        width: 50%;
+        color: rgb(255, 255, 255);
+        position: relative;
+        overflow: hidden;
+        border: none;
+        background-color: var(--secondary-color);
+    }
+    .ContactUs-container h1{
+      width: fit-content;
+      padding: 72px;
+      margin-left: 40px;
+      font-size: 50px;
+      font-style: oblique;
+      font-weight:900;
+    }
+    .form{
+      box-shadow: rgb(0 0 0 / 10%) 0px 0px 16px;
+    }
+    .form textarea{
+      padding: 40px;
+      width: 43%;
+      border-radius: var(--primary-border-r1);
+    
+    }
+    .form h2{
+      padding: 20px;
+      margin: 40px;
+      font-size: 16px;
+    }
+   .contact-form .paragraph{
+    padding: 69px;
+    font-size: 35px;
+    color: var(--heading-text);
+   }

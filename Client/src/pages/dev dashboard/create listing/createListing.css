@@ -1,0 +1,29 @@
+.dev-container{
+    justify-content: center;
+    align-items: center;
+}
+.dev-heading{
+    text-align: center;
+    flex: 1;
+    display: flex;
+}
+.dev-link{
+    text-decoration: none;
+    text-align: center;
+}
+.dev-link-container{
+    text-align: center;
+    width: 100px;
+    margin: 0px;
+    position: absolute;
+}
+.dev-btn{
+    width: 100%;
+    background: var(--secondary-color);
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    left: 470px;
+    color: #fff;
+    border-radius: var(--primary-border-r1);
+}

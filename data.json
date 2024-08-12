@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Jubilee Park",
+        "type": "Student Hostel ",
+        "description": "All types of Acomodation",
+        "availability": "1st January 2023",
+        "price": "800",
+        "image": "../../img/interior/pic1.jpg"
+    },
+    {
+        "name": "Salvation Army",
+        "type": "Student Hostel ",
+        "description": "All types of Acomodation",
+        "availability": "1st January 2023",
+        "price": "900",
+        "image": "/image/2.jpg"
+    },
+    {
+        "name": "Thorne Park",
+        "type": "Student Hostel ",
+        "description": "All types of Acomodation",
+        "availability": "1st January 2023",
+        "price": "2000",
+        "image": "/image/3.jpg"
+    },
+    {
+        "name": "Elizabeth Villa",
+        "type": "Student Hostel ",
+        "description": "All types of Acomodation",
+        "availability": "1st January 2023",
+        "price": "1000",
+        "image": "/image/4.jpg"
+    }
+]

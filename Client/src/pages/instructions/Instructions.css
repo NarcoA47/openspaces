@@ -1,0 +1,25 @@
+.HowItWorks-container .Titlebar-container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding:20px;
+    height: 85px;
+    position: center;
+    width: 100%;
+    background-color: var(--secondary-color);
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: none;
+    font-size: 20px;
+     
+}
+.Titlebar-container h1{
+    color: aliceblue;
+}
+.Page-container{
+    padding: 20px;
+    margin: 20px;
+}
+.Page-container h1{
+    font-size: 25px;
+}

@@ -1,0 +1,240 @@
+.properties-section {
+    margin-top: 16px;
+}
+
+.property-grid {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    align-items: center;
+    margin: 12px 0px 24px 0px;
+    padding: 2px;
+    border-radius: var(--primary-border-r1);
+    border: 1px solid transparent;
+    box-shadow: var(--card-shadow);
+}
+
+.card-cover {
+    margin-bottom: 12px;
+    height: 420px;
+    width: 328px;
+    border-radius: var(--primary-border-r1);
+    position: relative;
+}
+.image-cover{
+    height: 240px;
+    width: 328px;
+}
+
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--primary-border-r1);
+}
+.property-info{
+    padding: var(--card-padding);
+    margin: var(--card-margin);
+}
+.prop-name {
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.star{
+    color: var(--star-gold);
+    font-size: var(--icon-size);
+    margin-left: 8px;
+}
+
+.heart-icon {
+    position: absolute;
+    left: 5px;
+    bottom: 89%;
+    top: 5px;
+}
+
+.verified {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: 5px;
+    margin-right: 8px;
+    background: var(--primary-bg);
+    padding: 2px;
+    border-radius: var(--primary-border-r1);
+    color: var(--heading-text);
+}
+
+.verified-icon {
+    margin-right: 8px;
+    font-weight: 600;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-type{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin:var(--card-margin);
+}
+.list-type > span{
+    margin-right: 16px;
+    font-weight: 300;
+}
+.list-description{
+    font-weight: 400;
+    font-size: 12px;
+    margin:var(--card-margin);
+}
+.listed-date{
+    font-size: 16px;
+    font-weight: 500;
+    margin:var(--card-margin);
+}
+.card-groups{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.group-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1024px)  {
+    .properties-section {
+        margin-top: 16px;
+    }
+    
+    .property-grid {
+        display: flex;
+        flex: 3;
+        flex-wrap: wrap;
+    }
+    
+    .property-card {
+        align-items: center;
+        margin: 12px 0px 24px 10px;
+        padding: 2px;
+        border-radius: var(--primary-border-r1);
+        border: 1px solid transparent;
+        box-shadow: var(--card-shadow);
+    }
+    
+    .card-cover {
+        margin-bottom: 12px;
+        height: 420px;
+        width: 328px;
+        border-radius: var(--primary-border-r1);
+        position: relative;
+    }
+    .image-cover{
+        height: 240px;
+        width: 328px;
+    }
+    
+    
+    .card-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: var(--primary-border-r1);
+    }
+    .property-info{
+        padding: var(--card-padding);
+        margin: var(--card-margin);
+    }
+    .prop-name {
+        font-weight: 600px;
+        font-size: 20px;
+    }
+    
+    .star{
+        color: var(--star-gold);
+        font-size: var(--icon-size);
+        margin-left: 8px;
+    }
+    
+    .heart-icon {
+        position: absolute;
+        left: 5px;
+        bottom: 89%;
+        top: 5px;
+    }
+    
+    .verified {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 66%;
+        top: 5px;
+        background: var(--primary-bg);
+        padding: 2px;
+        border-radius: var(--primary-border-r1);
+        color: var(--heading-text);
+    }
+    
+    .verified-icon {
+        margin-right: 8px;
+        font-weight: 600;
+    }
+    .rating{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .list-type{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin:var(--card-margin);
+    }
+    .list-type > span{
+        margin-right: 16px;
+        font-weight: 300;
+    }
+    .list-description{
+        font-weight: 400;
+        font-size: 12px;
+        margin:var(--card-margin);
+    }
+    .listed-date{
+        font-size: 16px;
+        font-weight: 500;
+        margin:var(--card-margin);
+    }
+    .card-groups{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .group-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons{
+        padding: var(--card-padding);
+        font-size: 10px;
+        color: red;
+    }
+}

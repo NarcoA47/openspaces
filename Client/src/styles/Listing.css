@@ -1,0 +1,121 @@
+.ListingContainerMain {
+    margin: 6px 0rem;
+}
+.ListingContainerMain .HeaderListing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.ListingContainerMain .HeaderListing .ListingCount {
+    cursor: pointer;
+}
+.ListingContainerMain .HeaderListing .ListingCount .Dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: .5rem .5rem;
+    right: 35.8rem;
+}
+.ListingContainerMain .HeaderListing .ListingCount .Dropdown span h6{
+    margin: .5rem 0rem;
+}
+.ListingContainerMain .HeaderListing .ListingCount:hover .Dropdown{
+    display: block;
+}
+.ListingContainerMain .Body {
+    width: 60%;
+    margin: 0rem 0rem;
+}
+.ListingContainerMain .Body .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .1rem 0rem 0rem 0rem;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.ListingContainerMain .Body .content .image-content {
+    width: 45%;
+    margin: 0rem 0rem;
+    border-radius: 15px 0px 0px 15px;
+}
+.ListingContainerMain .Body .content .image-content img {
+    width: 105%;
+    margin-top: .25rem;
+    border-radius: 15px 15px 15px 15px;
+}
+.ListingContainerMain .Body .content .text-content {
+   width: 55%;
+   margin-top: -1rem;
+   margin-left: 1.5rem;
+}
+.ListingContainerMain .Body .content .text-content .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem 0rem;
+}
+.ListingContainerMain .Body .content .text-content .header-content span{
+    margin-right: .5rem;
+}
+.ListingContainerMain .Body .content .text-content .Residence-information {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0.2rem
+}
+.ListingContainerMain .Body .content .text-content .Residence-information .dot {
+    margin: 0rem .2rem;
+}
+.ListingContainerMain .Body .content .text-content .HostelDetail {
+    margin:  1rem 0.2rem;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter {
+    display: flex;
+    justify-content: space-between;
+    margin:  2rem 0rem 0rem 0rem;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .Prices {
+    display: flex;
+    flex-direction: row;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .Prices .item {
+    padding: 0rem .5rem;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .Prices .ItemFrom{
+    margin-right: .5rem;
+    margin-left: .2rem;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .icons .icon {
+    margin: 0rem .5rem;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .icons .icon .text{
+    visibility: hidden;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50%;
+    z-index: 1000;
+    transition: opacity .3s;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .icons .icon .text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+}
+.ListingContainerMain .Body .content .text-content .CardFooter .icons .icon:hover {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}

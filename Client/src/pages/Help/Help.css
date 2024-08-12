@@ -1,0 +1,109 @@
+.HelpContainer{
+    box-sizing: 0;
+}
+p{
+    color: #222222;
+    text-decoration: none;
+}
+
+.HelpSection{
+font-weight: 600;
+color: #222222;
+}
+.helpClass{
+    color: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.HelpContainer .HelpBodyMain .HelpBrowseAll .HelpBrowser{
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    line-height: inherit;
+    color: #222222;
+    text-decoration: none;
+    outline: none;
+}
+
+.HelpContainer .HelpBodyMain .HelpImgs{
+    display: flex;
+}
+
+.HelpContainer .HelpBodyMain .HelpImgs img{
+    width: 50%;
+}
+.HelpContainer .HelpBodyMain .HelpImgs .Span01{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 20rem;
+    left: 0rem;
+    right: 87rem;
+    bottom: 0rem;
+}
+.HelpContainer .HelpBodyMain .HelpImgs .Span02{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 20rem;
+    left: 0rem;
+    right: 40rem;
+    bottom: 0rem;
+}
+.HelpContainer .HelpBodyMain .HelpImgs .Span03{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 20rem;
+    left: 0rem;
+    right: -10rem;
+    bottom: 0rem;
+}
+.HelpContainer .HelpBodyMain .HelpImgs .Span04{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 20rem;
+    left: 0rem;
+    right: -65rem;
+    bottom: 0rem;
+}
+
+.HelpContainer .HelpBodyMain .Links2{
+    display: flex;
+}
+.HelpContainer .HelpBodyMain .Links2 .Link22{
+    color: green; 
+    border-bottom: 2px;
+}
+.HelpContainer .HelpBodyMain .Links2 .Link23{
+    color: green; 
+}
+.HelpContainer .HelpBodyMain .Links2 .Link24{
+    color: green; 
+}
+
+
+.HelpContainer .HelpBodyMain .Links3{
+    display: flex;
+}
+.HelpContainer .HelpBodyMain .Links3 .Link25{
+    color: green; 
+}
+.HelpContainer .HelpBodyMain .Links3 .Link26{
+    color: green; 
+}
+.HelpContainer .HelpBodyMain .Links3 .Link27{
+    color: green; 
+}

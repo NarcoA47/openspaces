@@ -1,0 +1,23 @@
+[
+    {
+        "saftandhygenic" : "yes",
+        "wifi": "yes",
+        "AC": "yes",
+        "Balcony": "yes",
+        "Furnished": "yes"
+    },
+    {
+        "saftandhygenic" : "yes",
+        "wifi": "no",
+        "AC": "no",
+        "Balcony": "no",
+        "Furnished": "yes"
+    },
+    {
+        "saftandhygenic" : "yes",
+        "wifi": "yes",
+        "AC": "no",
+        "Balcony": "no",
+        "Furnished": "yes"
+    }
+]

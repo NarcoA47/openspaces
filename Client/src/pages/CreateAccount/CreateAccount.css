@@ -1,0 +1,146 @@
+
+.form ul li{
+    list-style: none;
+    margin: 20px;
+
+}
+.CreateAccount-container input{
+    box-sizing: border-box;
+    padding: 1%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: var(--primary-border-r1);
+    padding: 0px 16px;
+    height: 56px;
+    outline: none;
+    border: 1px solid var(--input-border-color);
+}
+.icons button span{
+    font-size: 100%;
+    font-weight: inherit;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    border: 0px;
+    background-color: transparent;
+}
+.CreateAccount-container {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.CreateAccount-container .form-container{
+    width: 60%;
+    margin-bottom: 300px;
+    border-radius:var(--primary-border-r1);
+    margin-bottom: 100px;
+
+}
+.CreateAccount-container .image {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+   
+}
+.CreateAccount-container .image img{
+    width: 100%;
+    height: 41.5rem;
+    flex: 1;
+    border-radius: var(--primary-border-r1);
+}
+.CreateAccount-container .form h1{
+    width: 100%;
+    margin-bottom: 00px;
+    padding-top: 10px;
+}
+.CreateAccount-container button {
+    text-overflow: clip;
+    text-align: center;
+}
+.CreateAccount-container button span{
+    position: relative;
+}
+
+.CreateAccount-container .LoginAccountbtn li{
+   position: relative;
+   bottom: 1rem;
+   list-style: none;
+}
+@media screen and (max-width: 1024px) {
+    
+    .form ul li{
+        list-style: none;
+        margin: 10px 0px;
+
+    }
+    .CreateAccount-container input{
+        box-sizing: border-box;
+        padding: 0%;
+        width: 90%;
+        position: relative;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: left;
+        -webkit-box-align: center; 
+        border-radius: var(--primary-border-r1);
+        padding: 0px 14px;
+        height: 56px;
+        outline: none;
+        border: 1px solid var(--input-border-color);
+    }
+    .icons button span{
+        font-size: 100%;
+        font-weight: inherit;
+        margin: 0px;
+        padding: 0px;
+        vertical-align: baseline;
+        border: 0px;
+        background-color: transparent;
+    }
+    .CreateAccount-container {
+        display: flex;
+        align-items: flex-start;
+        margin: 0rem;
+        justify-content: left;
+    }
+
+    .CreateAccount-container .form-container{
+        width: 100%;
+        margin-bottom: 100px;
+        border-radius:var(--primary-border-r1);
+
+    }
+    .CreateAccount-container .form-container .text-title {
+        margin-top: 6rem;
+    }
+    .CreateAccount-container .form-container .name {
+        margin-top: 4rem;
+    }
+    .CreateAccount-container .image {
+        display: none;
+    }
+    
+    .CreateAccount-container .form h1{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .CreateAccount-container button {
+        text-overflow: clip;
+        text-align: center;
+    }
+    .CreateAccount-container button span{
+        position: relative;
+    }
+
+    .CreateAccount-container .LoginAccountbtn li{
+    position: relative;
+    bottom: 1rem;
+    list-style: none;
+    }
+}

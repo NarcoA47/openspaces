@@ -1,0 +1,75 @@
+.Disclaimer-Content {
+    width: 100%;
+    margin: 0rem;
+    
+    padding: 0rem;
+    height: 70vh;
+    justify-content: center;
+}
+.Disclaimer-Content Form{
+    width: 50%;
+    margin-left: 400px;
+}
+.Disclaimer-Content Form .Container{
+    width: 60%;
+    position: relative;
+    top: 6rem;
+    bottom: 10rem;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.08);
+}
+.Disclaimer-Content Form .Content{
+    margin: 0rem 1rem;
+}
+.Disclaimer-Content Form .Container .title{
+    width: 100%;
+}
+.Disclaimer-Content Form .Container Button {
+    border: none;
+    background: var(--secondary-color);
+    height: 2.5rem;
+    width: 30%;
+    margin-top: 2rem;
+    margin-left: 14rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem .5rem .5rem .5rem;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .Disclaimer-Content {
+        width: 100%;
+        margin: 0rem;
+        
+        padding: 0rem;
+        height: 70vh;
+        justify-content: center;
+    }
+    .Disclaimer-Content Form{
+        width: 100%;
+        margin: 0rem 0rem;
+    }
+    .Disclaimer-Content Form .Container{
+        width: 100%;
+        position: relative;
+        top: 14rem;
+        bottom: 10rem;
+        box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.08);
+    }
+    .Disclaimer-Content Form .Content{
+        margin: 0rem 1rem;
+    }
+    .Disclaimer-Content Form .Container .title{
+        width: 100%;
+    }
+    .Disclaimer-Content Form .Container Button {
+        border: none;
+        background: var(--secondary-color);
+        height: 2.5rem;
+        width: 30%;
+        margin-top: 2rem;
+        margin-left: 14rem;
+        margin-bottom: 1rem;
+        border-radius: .5rem .5rem .5rem .5rem;
+        color: white;
+    }
+}

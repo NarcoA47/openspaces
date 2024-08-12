@@ -1,0 +1,14 @@
+@import "./styles/global.css";
+@import "./styles/variables.css";
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+body {
+  margin: 0;
+  font-family: 'Circular Std', sans-serif;                                             
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Public Sans', sans-serif;
+}

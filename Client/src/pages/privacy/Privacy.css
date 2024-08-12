@@ -1,0 +1,15 @@
+.PrivacyPolicyContainer {
+    box-sizing: 0;
+}
+
+.Header {
+    box-sizing: 0;
+    background-color: #2AA45B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.PrivacyPolicyContainer .BodyMain .SectionStart p{
+    color: black;
+    margin-left: 2rem;
+}

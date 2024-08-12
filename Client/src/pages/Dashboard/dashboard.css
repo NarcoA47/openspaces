@@ -1,0 +1,212 @@
+.dashboard{
+    margin: 0px 0px 40px 0px ;
+}
+.dashboard-link{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.75rem;
+}
+.dashboard-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--filter-text);
+}
+.link{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: var(--filter-text);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+.dashboard-overview{
+    width: 100%;
+    margin: 12px;
+}
+.dashboard-user-name{
+    -webkit-font-smoothing: antialiased;
+    font-family: Roobert, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-feature-settings: "salt";
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: 0.005rem;
+    margin: 0px;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+}
+.dashbord-cards{
+    /* display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 2rem;
+    place-content: center;
+    -webkit-box-pack: center;
+    margin-bottom: 3.75rem;
+}
+.card-link{
+    border-radius: 0.75rem;
+    /* width: 300px;
+    height: 150px; */
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.card-link:hover{
+    box-shadow: var(--box-shadow-2);
+}
+
+
+.dashboard-content-container{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(222 221 219) 0px 0px 0px 1px;
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    padding: 1.5rem;
+    transition: box-shadow 0s ease 0s, color 150ms ease-in 0s;
+}
+
+.dashboard-card-icon{
+    font-size: 1.5rem;
+    /* display: flex; */
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 0.9rem;
+}
+.dashboard-card-title{
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "salt";
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--heading-text);
+}
+.dashboard-description{
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "salt";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0125rem;
+    margin: 0px;
+    font-weight: 400;
+    color: rgb(118, 117, 117);
+}
+
+@media screen and (max-width: 1024px) {
+    .dashboard{
+        margin: 0px 0px 0px 0px ;
+    }
+    .dashboard-link{
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.75rem;
+    }
+    .dashboard-link{
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--filter-text);
+    }
+    .link{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        color: var(--filter-text);
+    }
+    
+    .link:hover{
+        text-decoration: underline;
+    }
+    .dashboard-overview{
+        width: 50%;
+        margin: 6px;
+    }
+    .dashboard-user-name{
+        -webkit-font-smoothing: antialiased;
+        font-family: Roobert, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-feature-settings: "salt";
+        font-size: 1.25rem;
+        line-height: 2rem;
+        letter-spacing: 0.005rem;
+        margin: 0px;
+        font-weight: 400;
+        color: rgb(82, 82, 82);
+    }
+    .dashbord-cards{
+        display: block;
+        gap: 2rem;
+        place-content: center;
+        -webkit-box-pack: center;
+        margin-bottom: 3.75rem;
+    }
+    .card-link{
+        border-radius: 0.75rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+    .card-link:hover{
+        box-shadow: var(--box-shadow-2);
+    }
+    
+    .dashboard-content-container{
+        width: 100%;
+        height: 100%;
+        box-shadow: rgb(222 221 219) 0px 0px 0px 1px;
+        color: rgb(24, 24, 24);
+        cursor: pointer;
+        border-radius: 0.75rem;
+        box-sizing: border-box;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        padding: 1.5rem;
+        transition: box-shadow 0s ease 0s, color 150ms ease-in 0s;
+    }
+    
+    .dashboard-card-icon{
+        font-size: 1.5rem;
+        /* display: flex; */
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-bottom: 0.9rem;
+    }
+    .dashboard-card-title{
+        -webkit-font-smoothing: antialiased;
+        font-feature-settings: "salt";
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.02rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: var(--heading-text);
+    }
+    .dashboard-description{
+        -webkit-font-smoothing: antialiased;
+        font-feature-settings: "salt";
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.0125rem;
+        margin: 0px;
+        font-weight: 400;
+        color: rgb(118, 117, 117);
+    }
+}
